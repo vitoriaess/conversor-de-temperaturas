@@ -1,0 +1,40 @@
+body{
+    background-color: aquamarine
+}
+
+
+h1 {
+    background-color: beige;
+    text-align: center;
+    font-size: 8vh;
+}
+
+#escalas {
+    font-size: 2.5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.cadaum{
+    margin: 2vh;
+    display: inline-block;
+}
+
+label{
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 630px){
+
+    #escalas {
+        font-size: 2.5vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 6vh;
+    }
+}
